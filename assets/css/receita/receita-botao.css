@@ -1,0 +1,15 @@
+@import '/assets/css/cores.css';
+
+.receita__botao {
+    background: var(--cor-background);
+    border: none;
+    border-radius: 5px;
+    color: var(--cor-botao-fonte);
+    padding: 1rem;
+    transition: all .2s ease-in-out;
+}
+
+.receita__botao:hover {
+    background: var(--cor-botao-hover);
+    cursor: pointer;
+}
